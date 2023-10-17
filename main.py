@@ -14,3 +14,10 @@ def get_driver():
   driver = webdriver.Chrome(options)
   driver.get(https://automated.pythonanywhere.com/)
   return driver
+
+def_main():
+  driver = get_driver
+  element = driver.find_element_by_xpath("/html/body/div[1]/div/h1[1]")
+  return element
+
+print(main())
